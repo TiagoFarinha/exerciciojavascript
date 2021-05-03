@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+	
+	</head>
+	
+	<body>
+		<script>
+			var num = prompt("Inserir número");
+			while (num != "") {
+				num = parseInt(num);
+				if (num > 0) {
+					alert(num + " é positivo");
+				} else if (num < 0) {
+					alert(num + " é negativo");
+				} else if (num == 0) { 
+					alert(num + " é zero");
+				} else {
+					alert("O valor inserido não é um número");
+				}	
+				num = prompt("Inserir número");
+			}
+		</script>
+	</body>
+</html>
